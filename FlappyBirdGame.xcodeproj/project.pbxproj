@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FFEDAB1F22579C5A0096CF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB1E22579C5A0096CF58 /* AppDelegate.swift */; };
-		FFEDAB2122579C5A0096CF58 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB2022579C5A0096CF58 /* GameScene.sks */; };
-		FFEDAB2322579C5A0096CF58 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB2222579C5A0096CF58 /* Actions.sks */; };
 		FFEDAB2522579C5A0096CF58 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB2422579C5A0096CF58 /* GameScene.swift */; };
 		FFEDAB2722579C5A0096CF58 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB2622579C5A0096CF58 /* GameViewController.swift */; };
 		FFEDAB2A22579C5A0096CF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB2822579C5A0096CF58 /* Main.storyboard */; };
 		FFEDAB2C22579C5C0096CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB2B22579C5C0096CF58 /* Assets.xcassets */; };
 		FFEDAB2F22579C5C0096CF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB2D22579C5C0096CF58 /* LaunchScreen.storyboard */; };
+		FFEDAB3922579DE90096CF58 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB3822579DE90096CF58 /* player.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFEDAB1B22579C5A0096CF58 /* FlappyBirdGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBirdGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEDAB1E22579C5A0096CF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFEDAB2022579C5A0096CF58 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FFEDAB2222579C5A0096CF58 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FFEDAB2422579C5A0096CF58 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FFEDAB2622579C5A0096CF58 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FFEDAB2922579C5A0096CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFEDAB2B22579C5C0096CF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEDAB2E22579C5C0096CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFEDAB3022579C5C0096CF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEDAB3822579DE90096CF58 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 		FFEDAB1D22579C5A0096CF58 /* FlappyBirdGame */ = {
 			isa = PBXGroup;
 			children = (
+				FFEDAB3822579DE90096CF58 /* player.atlas */,
 				FFEDAB1E22579C5A0096CF58 /* AppDelegate.swift */,
-				FFEDAB2022579C5A0096CF58 /* GameScene.sks */,
-				FFEDAB2222579C5A0096CF58 /* Actions.sks */,
 				FFEDAB2422579C5A0096CF58 /* GameScene.swift */,
 				FFEDAB2622579C5A0096CF58 /* GameViewController.swift */,
 				FFEDAB2822579C5A0096CF58 /* Main.storyboard */,
@@ -131,11 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEDAB3922579DE90096CF58 /* player.atlas in Resources */,
 				FFEDAB2A22579C5A0096CF58 /* Main.storyboard in Resources */,
-				FFEDAB2122579C5A0096CF58 /* GameScene.sks in Resources */,
 				FFEDAB2C22579C5C0096CF58 /* Assets.xcassets in Resources */,
 				FFEDAB2F22579C5C0096CF58 /* LaunchScreen.storyboard in Resources */,
-				FFEDAB2322579C5A0096CF58 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
